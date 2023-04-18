@@ -12,14 +12,18 @@
         <plugins.dir>${project.basedir}/out</plugins.dir>   <!-- default output dir -->
     </properties>
 
-    <groupId>YOURNAME</groupId>
-    <artifactId>PLUGINNAME</artifactId>
-    <version>VERSION</version>
+    <groupId>CraftyStudios</groupId>
+    <artifactId>Reputation</artifactId>
+    <version>1.0.0-SNAPShOT</version>
 
     <repositories>
         <repository>
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+        <repository>
+            <id>dmulloy2-repo</id>
+            <url>https://repo.dmulloy2.net/repository/public/</url>
         </repository>
     </repositories>
 
@@ -35,6 +39,16 @@
             <groupId>org.spigotmc</groupId>
             <artifactId>plugin-annotations</artifactId>
             <version>1.2.3-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.comphenix.protocol</groupId>
+            <artifactId>ProtocolLib</artifactId>
+            <version>4.7.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.xerial</groupId>
+            <artifactId>sqlite-jdbc</artifactId>
+            <version>3.41.2.1</version>
         </dependency>
     </dependencies>
 
